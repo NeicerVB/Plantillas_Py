@@ -30,7 +30,7 @@ build/
 
 
 # Datos Temporales o Sensibles
-data/raw/
+# data/raw/
 # *.csv 
 
 
