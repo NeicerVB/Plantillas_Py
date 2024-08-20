@@ -1,0 +1,7 @@
+{
+    "project_name": "My_Project",
+    "project_slug": "Python_Automation",
+    "Author/s": "Your name",
+    "project_packages": ["All", "Minimal"],
+    "python_version": "3.9"
+}
