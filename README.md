@@ -1,9 +1,9 @@
-# Cookiecutter Plantilla para Automatización con Python
+# Cookiecutter: Plantilla para Proyectos con Python
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/128/3344/3344372.png" alt="Texto alternativo">
 </p>
 
-__Estructura de carpeta para proyectos de automatización de facil control y mantenimiento.__
+__Estructura de carpeta para proyectos de automatización, ciencia de datos, web scraping y demás, con un facil control y mantenimiento.__
 
 ## Instalación de Cookiecutter 🍪
 1. Agregamos el canal conda-forge para que conda pueda buscar la librería cookiecutter allí.

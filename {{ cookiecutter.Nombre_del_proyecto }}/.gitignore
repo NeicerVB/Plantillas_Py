@@ -46,5 +46,5 @@ build/
 
 # Archivos de plantilla de cookiecutter no necesarios
 hooks/
-{{ cookiecutter.project_slug }}/
-{{cookiecutter.project_slug}}/
+# {{ cookiecutter.project_slug }}/
+# {{cookiecutter.project_slug}}/

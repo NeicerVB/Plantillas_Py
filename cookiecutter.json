@@ -1,7 +1,8 @@
 {
-    "project_name": "My_Project",
-    "project_slug": "Python_Automation",
-    "Author/s": "Your name",
-    "project_packages": ["All", "Minimal"],
-    "python_version": "3.9"
+    "Nombre_del_proyecto": "Mi_proyecto",
+    "nombre_del_entorno_virtual": "env_mi_proyecto",
+    "Autor/es": "Tu nombre",
+    "paquetes_del_proyecto": ["Todos", "Minimo"],
+    "version_de_python": "3.10",
+    "project_slug": "{{ cookiecutter.Nombre_del_proyecto|lower|replace(' ', '_') }}"
 }

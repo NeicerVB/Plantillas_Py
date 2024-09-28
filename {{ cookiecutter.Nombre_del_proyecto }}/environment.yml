@@ -1,0 +1,40 @@
+# Nombre del entorno Conda basado en el nombre del proyecto
+name: {{ cookiecutter.nombre_del_entorno_virtual }}
+
+# Canales desde los cuales instalar paquetes
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Dependencias básicas
+  {% if cookiecutter.paquetes_del_proyecto == "Todos" -%}
+  - fs
+  - jupyter
+  - notebook
+  - jupyterlab
+  {% endif -%}
+  
+  # Sección para instalar con conda
+  - pip
+  {% if cookiecutter.paquetes_del_proyecto == "Todos" -%}
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - selenium
+  - beautifulsoup4
+  - ipykernel
+  - scipy
+  {% endif -%}
+  
+  # Especificación de la versión de Python
+  - python={{ cookiecutter.version_de_python }}
+  
+  # Paquetes adicionales instalados a través de pip
+  - pip:
+    {% if cookiecutter.paquetes_del_proyecto == "Todos" -%}
+    - undetected-chromedriver
+    {% endif -%}
